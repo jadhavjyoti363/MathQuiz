@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/amber"
+    tools:context=".plusActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/amber">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:text="SCORE:"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/score2"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:id="@+id/countdown1"
+            android:text="TIMER:"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/countdown"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/amber">
+
+    <TextView
+        android:id="@+id/qution"
+        android:text="3 + 5 = "
+        android:textSize="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <TextView
+            android:id="@+id/answer"
+            android:textSize="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+      android:layout_marginLeft="50dp"
+        android:textColor="@color/brown"
+        android:background="@color/deep_orange"
+        />
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/brown"
+        android:background="@color/deep_orange"
+        />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/msg2"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
